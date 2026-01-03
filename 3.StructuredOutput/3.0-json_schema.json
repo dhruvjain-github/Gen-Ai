@@ -1,0 +1,12 @@
+
+{
+    "title": "student",
+    "description": "schema about students",
+    "type": "object",
+    "properties":{
+        "name":"string",
+        "age":"integer"
+    },
+    "required":["name"],
+    "_comment":"it is used when we use multiple language in our project"
+}
