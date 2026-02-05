@@ -5,7 +5,7 @@ from typing import TypedDict, Annotated, Optional, Literal
 load_dotenv()
 
 model = ChatOpenAI()
-
+ 
 # schema
 class Review(TypedDict):
 

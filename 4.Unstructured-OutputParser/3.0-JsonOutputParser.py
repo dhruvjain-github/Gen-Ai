@@ -13,6 +13,7 @@ parser=JsonOutputParser()
 template1=PromptTemplate(
     template="generate a course guide on topic {topic} \n {format}",
     input_variables='topic',
+    # partial variable get filled before run time
     partial_variables={'format':parser.get_format_instructions()}
 )
 
